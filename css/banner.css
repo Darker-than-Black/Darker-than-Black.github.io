@@ -1,0 +1,128 @@
+/*--------------------
+--------Banner--------
+----------------------*/
+.banner {
+	background-color: #e6e6e6;
+	box-shadow: inset 0px 0px 0px 10000px rgba(0,0,0,0.4);
+	width: 100%;
+	display: table;
+	background-image: url(https://cdn.shopify.com/s/files/1/1773/5695/files/probat_roasting_1440x640.jpg?v=1487197754);
+	background-position:top center;
+}
+
+.banner .wrapper {
+	padding: 120px 0 0 0;
+}
+
+.banner .wrapper .container .row {
+	margin: 30px;
+}
+
+.star {
+	height: 30px;
+	width: 30px;
+	background-color: #cdb47b;
+	-webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.slag {
+	font-family: Georgia;
+	font-size: 20px;
+	line-height: 18px;
+	color: #fff;
+	text-shadow: 0px 0px 27px rgba(150, 150, 150, 1);
+}
+
+.top-slag {
+	font-size: 18px;
+}
+
+.top-slag:after,
+.top-slag:before {
+	display: inline-block;
+	content: '';
+	width: 0;
+	height: 0;
+	border: 2px solid transparent;
+	position: relative;
+	bottom: 4.5px;
+}
+
+.top-slag:before {	
+	border-right: 100px solid #cdb47b;
+	right: 20px;
+}
+
+.top-slag:after {
+	border-left: 100px solid #cdb47b;
+	left: 20px;
+}
+
+.banner-name {
+	font-family: Roboto-Black;
+	font-size: 55px;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0px 0px 7px rgba(150, 150, 150, 1);
+}
+
+.banner-name > span {
+	color: #eab96a;
+}
+
+.circle {
+	width: 10px;
+	height: 10px;
+	background: #cdb47b;
+	border-radius: 50%;
+}
+
+.line-l,
+.line-r {
+	display: inline-block;
+	content: '';
+	width: 0;
+	height: 0;
+	border: 2px solid transparent;
+	position: relative;
+	top: 2.5px; 
+}
+
+.line-l {	
+	border-right: 100px solid #cdb47b;
+	right: 5px;
+}
+
+.line-r {
+	border-left: 100px solid #cdb47b;
+	left: 5px;
+}
+
+.link-down {
+	margin: 100px 0 0 0;
+	display: block;
+	width: 60px;
+	height: 60px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+
+.link-down svg {
+	position: relative;
+	top: 20px;
+	left: 20px;
+	font-size: 1.3em;
+	color: #eab96a;
+}
+
+.granola {
+	padding: 0;
+	margin: 0;
+	height: 200px;
+	z-index: 10;
+	position: absolute;
+    right: 18px;
+    top: 75%;
+ }

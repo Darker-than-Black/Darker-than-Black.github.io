@@ -1,0 +1,127 @@
+﻿.testimonils {
+	height: auto;
+	background-color: transparent;
+	margin: 25px 0;
+}
+
+.tes-name {
+	margin: 75px 0 25px 0;
+	font-family: Roboto-Black;
+	font-weight: bolder;
+	font-size: 50px;
+	color: #000;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 7px rgba(150, 150, 150, 1);
+}
+
+.tes-slag {
+	font-family: Georgia;
+	font-size: 14px;
+	letter-spacing: 0.1px;
+	color: #485260;
+	text-align: center;
+	width: 420px;
+	text-shadow: 0px 0px 7px rgba(255, 255, 255, 1);
+}
+
+#slider-coment .item {
+	margin: 10px auto;
+}
+
+#slider-coment .item .container {
+	display: flex;
+}
+
+#slider-coment .item .container .row img {
+	width: 150px;
+	height: 150px;
+	display: block;
+	border-radius: 50%;
+}
+
+#slider-coment .owl-dots {
+	margin: 15px;
+}
+
+#slider-coment .owl-dots .owl-dot.active span, 
+#slider-coment .owl-dots .owl-dot:hover span {
+	background-color: #eab96a;
+}
+
+#slider-coment .owl-dots .owl-dot span {
+    background: #000;
+}
+
+#slider-coment .item .container .row:first-child {
+	position: relative;
+	/* display: inline-block; */
+	margin: 20px auto;
+}
+
+.vk,
+.tw,
+.fb {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 10%;
+	right: 2%; 
+	/* display: block;
+	border-radius: 50%;
+	background-color: #547; */
+}
+
+.vk {
+	background: url('http://htmlbook.ru/files/social_icons.png') no-repeat -60px 0; 
+}
+
+.tw {
+	background: url('http://htmlbook.ru/files/social_icons.png') no-repeat -30px 0;
+
+}
+
+.fb {
+	background: url('http://htmlbook.ru/files/social_icons.png') no-repeat 0 0;
+}
+
+.tes-user-name {
+	font-family: Roboto-Black;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	color: #000;
+	text-transform: uppercase;
+	margin: 15px;
+}
+
+.tes-text {
+	font-family: Georgia;
+	font-size: 12px;
+	letter-spacing: 0.1px;
+	line-height: 25px;
+	color: #485260;
+	width: 670px;
+	text-align: center;
+}
+
+#slider-coment .owl-nav {
+    margin-top: 0;
+    font-size: 39pt;
+    color: #485260;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+#slider-coment .owl-nav button.owl-next {
+	position: absolute;
+    right: 10px;
+}
+
+#slider-coment .owl-nav button.owl-prev {
+	position: absolute;
+    left: 10px;
+}
+
+

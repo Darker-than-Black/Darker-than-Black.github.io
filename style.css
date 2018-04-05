@@ -1,0 +1,89 @@
+body {
+	background-color: #e6e6e6;
+	background-image: url(img/bg.png);
+	background-repeat: repeat;
+	background-position: center center;
+	height: auto;
+}
+
+
+
+
+/* Backgroung block */
+.bg-corners {
+	background-image:url(img/bg-corners.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	z-index: -99;
+}
+#bg-bottom {
+	transform: rotate(180deg);
+}
+
+.banner,
+.gallery {
+	background-size: cover; 
+	position: relative;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+} 
+
+/* Parallax effect */
+.coffe {
+	position: absolute;
+	/* width: 10vw;
+	height: auto; */
+	display: table;
+	z-index: 10;
+}
+
+.coffe img {
+	width: 8vw;
+	height: auto;
+	display: table-cell;
+}
+
+#coffebean_2 {
+	right: 0;
+	top: 16%; 
+}
+
+#coffebean_2 img {
+	width: 5vw;
+}
+
+#coffebean_3 {
+	left: 5%;
+	top: -37%;
+}
+
+#coffebean_4 {
+	right: 5%;
+	bottom: 45%;
+}
+
+#coffebean_5 {
+	/* right: 0; */
+	top: -104%; 
+	z-index: -99;
+}
+
+#coffebean_5 img {
+	width: 40vw;
+}
+
+#coffebean_6 {
+	left: 18% ;
+	top: -104%; 
+	z-index: -99;
+}
+
+#coffebean_6 img {
+	width: 14vw;
+}
+
